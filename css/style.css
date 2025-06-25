@@ -1,0 +1,45 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #1a1a1a, #333333);
+  border-bottom: 3px solid #ffcc00;
+}
+img {
+  max-height: 500px;
+  object-fit: cover;
+}
+hr.golden-line {
+  border: none;
+  border-top: 3px solid #FFD700; /* Gold */
+  width: 80px;
+  margin: 1rem auto;
+}
+
+.section-divider {
+  border-bottom: 2px solid #FFD700;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+.contact-section {
+  margin-top: 60px;
+  padding-top: 40px;
+}
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.dropdown-menu a:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+.tile-hover:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px #FFD700;
+}
+.carousel img {
+  max-height: 400px;
+  object-fit: cover;
+}
